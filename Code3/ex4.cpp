@@ -6,7 +6,6 @@
 #include <vector>
 #include <iterator>
 #include <fstream>
-
 #include "BinarySearchTree.h"
 
 using namespace std;
@@ -16,7 +15,7 @@ using namespace std;
 int main( )
 {
     BinarySearchTree<Row> Tab;
-    ifstream file("C:\\Users\\HP\\Documents\\LiU\\TND004\\Code3\\other files\\words.txt");
+    ifstream file("C:\\Users\\HP\\Documents\\LiU\\TND004_labs\\Code3\\other files\\words.txt");
 
     if (!file)
     {

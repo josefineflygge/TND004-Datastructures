@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HP\Documents\LiU\TND004\Code3
+CMAKE_SOURCE_DIR = C:\Users\HP\Documents\LiU\TND004_labs\Code3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HP\Documents\LiU\TND004\Code3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\HP\Documents\LiU\TND004_labs\Code3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Documents\LiU\TND004\Code3\cmake-build-debug\CMakeFiles C:\Users\HP\Documents\LiU\TND004\Code3\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Documents\LiU\TND004_labs\Code3\cmake-build-debug\CMakeFiles C:\Users\HP\Documents\LiU\TND004_labs\Code3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Documents\LiU\TND004\Code3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Documents\LiU\TND004_labs\Code3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ Code3/fast:
 	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/build
 .PHONY : Code3/fast
 
-ex4.obj: ex4.cpp.obj
+test4.obj: test4.cpp.obj
 
-.PHONY : ex4.obj
+.PHONY : test4.obj
 
 # target to build an object file
-ex4.cpp.obj:
-	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/ex4.cpp.obj
-.PHONY : ex4.cpp.obj
+test4.cpp.obj:
+	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/test4.cpp.obj
+.PHONY : test4.cpp.obj
 
-ex4.i: ex4.cpp.i
+test4.i: test4.cpp.i
 
-.PHONY : ex4.i
+.PHONY : test4.i
 
 # target to preprocess a source file
-ex4.cpp.i:
-	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/ex4.cpp.i
-.PHONY : ex4.cpp.i
+test4.cpp.i:
+	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/test4.cpp.i
+.PHONY : test4.cpp.i
 
-ex4.s: ex4.cpp.s
+test4.s: test4.cpp.s
 
-.PHONY : ex4.s
+.PHONY : test4.s
 
 # target to generate assembly for a file
-ex4.cpp.s:
-	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/ex4.cpp.s
-.PHONY : ex4.cpp.s
+test4.cpp.s:
+	$(MAKE) -f CMakeFiles\Code3.dir\build.make CMakeFiles/Code3.dir/test4.cpp.s
+.PHONY : test4.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Code3
 	@echo ... edit_cache
-	@echo ... ex4.obj
-	@echo ... ex4.i
-	@echo ... ex4.s
+	@echo ... test4.obj
+	@echo ... test4.i
+	@echo ... test4.s
 .PHONY : help
 
 

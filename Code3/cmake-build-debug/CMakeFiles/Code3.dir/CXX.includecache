@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/HP/Documents/LiU/TND004/Code3/BinarySearchTree.h
+C:/Users/HP/Documents/LiU/TND004_labs/Code3/BinarySearchTree.h
 dsexceptions.h
-C:/Users/HP/Documents/LiU/TND004/Code3/dsexceptions.h
+C:/Users/HP/Documents/LiU/TND004_labs/Code3/dsexceptions.h
 algorithm
 -
 
-C:/Users/HP/Documents/LiU/TND004/Code3/dsexceptions.h
+C:/Users/HP/Documents/LiU/TND004_labs/Code3/dsexceptions.h
 
-C:/Users/HP/Documents/LiU/TND004/Code3/ex4.cpp
+C:/Users/HP/Documents/LiU/TND004_labs/Code3/test4.cpp
 iostream
 -
 vector
@@ -24,5 +24,5 @@ iterator
 fstream
 -
 BinarySearchTree.h
-C:/Users/HP/Documents/LiU/TND004/Code3/BinarySearchTree.h
+C:/Users/HP/Documents/LiU/TND004_labs/Code3/BinarySearchTree.h
 

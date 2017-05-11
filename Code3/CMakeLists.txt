@@ -11,6 +11,7 @@ set(SOURCE_FILES
         "other files/words.txt"
         BinarySearchTree.h
         dsexceptions.h
-        ex4.cpp)
+        test4.cpp
+        )
 
 add_executable(Code3 ${SOURCE_FILES})
