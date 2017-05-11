@@ -1,3 +1,0 @@
-C:/Users/HP/Documents/LiU/TND004_labs/Code3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/HP/Documents/LiU/TND004_labs/Code3/cmake-build-debug/CMakeFiles/Code3.dir
-C:/Users/HP/Documents/LiU/TND004_labs/Code3/cmake-build-debug/CMakeFiles/edit_cache.dir
